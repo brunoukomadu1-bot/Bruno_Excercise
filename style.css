@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(pictures/img\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.left-nav h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 1000px;
+}
+
+.right-nav {
+    
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.list li {
+    align-items: center;
+    display: inline-block;
+    list-style: none;
+}
